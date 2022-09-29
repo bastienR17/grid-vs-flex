@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+.bloc2{
+    width: calc((100%/7)*3);
+
+}
+.bloc1{
+    width: calc((100%/7)*4);
+}
+.l1{
+    display: flex;
+
+}
+.b1{
+    width: 50%;
+    height:20vh;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(32, 128, 212);
+}
+.b2{
+    width: 50%;
+    height:20vh;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: mediumvioletred;
+}
+.b3{
+    width: 100%;
+    height:20vh;
+    border: 1px solid rgb(238, 187, 187);
+    background-color: wheat;
+}
+.l2{
+    display: flex;
+}
+.b6{
+    width: 75%;
+    height:20vh;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+.b7{
+    width: 25%;
+    height:20vh;
+    border: 1px solid black;
+    background-color: brown;
+}
+.l3{
+    display: flex;
+}
+.b8{
+    width: 50%;
+    height:40vh;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.b9{
+    width: 50%;
+    height:40vh;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.b10{
+    width: 100%;
+    height:20vh;
+    border: 1px solid black;
+    background-color: chartreuse;
+}
+
+.flex{
+    display: flex;
+}
+.colone{
+    height:100vh;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.block{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+.b5{
+    height: 40vh;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aqua;
+}
+.b11{
+    height: 60vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(238, 187, 187);
+}
+.b12{
+    height: 60vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(197, 42, 42);
+}
